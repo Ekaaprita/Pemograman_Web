@@ -1,0 +1,49 @@
+body {
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  height: 400px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"] {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.form-group_alamat textarea {
+  width: 95%;
+  height: 80px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
